@@ -13,7 +13,7 @@ body{
 
 /* Navbar */
 .navbar{
-    background-color: #4e342e;
+    background-color: #4e342ef3;
     color: white;
     display: flex;
     justify-content: space-between;
@@ -57,14 +57,15 @@ body{
 }
 
 /* Heading */
-h1{
+.menu-title
+{
     text-align: center;
     color: #4e342e;
     margin: 30px 0;
     font-size: 40px;
 }
 
-h1::after{
+.menu-title::after{
     content: "";
     display: block;
     width: 120px;
@@ -189,7 +190,20 @@ h1::after{
 }
 
 
-.coffee-btn button,
+.coffee-btn button
+{
+   display: block;
+    margin: 20px auto 0;
+    background-color: #8b4b20;
+    color: white;
+    border: none;
+    padding: 15px 35px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 600;
+    transition: 0.3s;
+}
 .event-card button{
     border:none;
     background:#8b4b20;
@@ -197,6 +211,9 @@ h1::after{
     padding:12px 25px;
     border-radius:25px;
     cursor:pointer;
+    font-size: 20px;
+    font-weight: 600;
+    transition: 0.3s;
 }
 
 
@@ -354,14 +371,16 @@ h1::after{
 
 .content h1{
     font-size:55px;
-    color:#ffd39b;
+    color:#f7f4f1;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 
-.content p{
+.content h4{
     margin:20px auto;
     max-width:700px;
     font-size:18px;
+    color: #fadeca;
 }
 
 
