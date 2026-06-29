@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap');
 /* Reset */
 *{
     margin: 0;
@@ -13,7 +14,7 @@ body{
 
 /* Navbar */
 .navbar{
-    background-color: #4e342ef3;
+    background-color: #462e28f3;
     color: white;
     display: flex;
     justify-content: space-between;
@@ -29,14 +30,15 @@ body{
 }
 
 .logo img{
-    width: 60px;
-    height: 60px;
+    width: 70px;
+    height: 70px;
     border-radius: 50%;
     object-fit: cover;
 }
 
 .company-name{
-    font-size: 24px;
+    font-family:"Tangerine", cursive;
+    font-size: 50px;
     font-weight: bold;
 }
 
@@ -393,6 +395,7 @@ body{
     color:white;
     cursor:pointer;
     transition:.3s;
+    font-weight: 600;
 }
 
 
